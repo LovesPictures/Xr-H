@@ -21,11 +21,11 @@
   text-decoration: none;
   font-size: 17px;
   /* for 6 icons */
-  /* width: 16.6%; */
+  width: 16.6%;
   /* for 5 icons */
   /* width: 20%; */
    /* for 4 icons */
-  width: 25%;
+  /* width: 25%; */
   transition: all 0.8s;
 }
 
@@ -37,7 +37,7 @@
 
 .Primary__navbar-link a.active {
   /* background-color: #04aa6d; */
-  bottom: 1rem solid pink;
+  /* bottom: 1rem solid pink; */
   background: var(--background-1);
 }
 

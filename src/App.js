@@ -7,7 +7,7 @@ import { Home } from "./components/Pages/Home";
 import { About } from "./components/Pages/About";
 import { MapData } from "./components/Pages/MapData";
 import { Ar } from "./components/Pages/Ar";
-import { Posters } from "./components/Pages/Posters";
+import { PosterCard } from "./components/Pages/PosterCard";
 import { Gallery } from "./components/Pages/Gallery";
 import { Contact } from "./components/Pages/Contact";
 import { SharedLayout } from "./components/Navigation/SharedLayout";
@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/mapData" element={<MapData />} />
         <Route exact path="/ar" element={<Ar />} />
-        <Route exact path="/posters" element={<Posters />} />
+        <Route exact path="/PosterCard" element={<PosterCard />} />
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/" element={<SharedLayout />} />

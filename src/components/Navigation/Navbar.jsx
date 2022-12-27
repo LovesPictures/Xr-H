@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import HomeIcon from "@material-ui/icons/Home";
 import PersonIcon from "@material-ui/icons/Person";
 import MapIcon from "@material-ui/icons/Map";
-// import BubbleChartIcon from "@material-ui/icons/BubbleChart";
-// import CollectionsBookmark from "@material-ui/icons/CollectionsBookmark";
+import BubbleChartIcon from "@material-ui/icons/BubbleChart";
+import CollectionsBookmark from "@material-ui/icons/CollectionsBookmark";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 
 // import icons from icons
@@ -31,13 +31,13 @@ const Navbar = () => {
             <MapIcon alt="Map data" />
           </Link>
 
-          {/* <Link to="/posters">
+          <Link to="/posterCard">
             <BubbleChartIcon alt="Digital Posters" />
-          </Link> */}
+          </Link>
 
-          {/* <Link to="/Gallery">
+          <Link to="/Gallery">
             <CollectionsBookmark alt="Collections" />
-          </Link> */}
+          </Link>
 
           <Link to="/contact">
             <AlternateEmailIcon />
