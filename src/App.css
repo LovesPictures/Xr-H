@@ -7,12 +7,13 @@
   margin: 0;
   padding: 0;  
 }
+ 
 
 :root {
   --background-1: #ffff;
   --background-2: #f509ae;
   --background-3: #e8e517cc;
-  --background-4:  #424d5c;
+  --background-4: #424d5c;
   --background-5: #5d757e;
   --background-6: url(./components/img/grid.png);
 

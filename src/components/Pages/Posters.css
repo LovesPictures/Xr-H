@@ -1,132 +1,88 @@
-/* Default styling for product cards  -------------------- */
-/* ProductCards -------------------------------------------*/
-.Card__b {
-  display: flex;
-  position: relative;
-  overflow: hidden;
-  /* border: 2px solid pink; */
-}
-
-.Card__img-b {
-  width: 100%;
-  height: 80%;
-  /* position: absolute; */
-}
-
-/* DEFAULT text container   */
-.Card__text-container-b {
-  text-align: center;
+.main__body-posters {
+  background: var(--background-5);
+  min-height: 100%;
   position: absolute;
+  width: 99vw;
+  padding: 0 0.2rem 3rem 0.2rem;
 }
 
-.Card__text-title-b {
-  line-height: 1.8rem;
-  text-align: center;
-  font: 1.2rem var(--font-family-1);
-  position: relative;
-  bottom: -245px;
-  left: 14px;
-}
-
-/* .Card__text-description {} */
-
-.Card__text-currency-b {
-  font: 1.2rem var(--font-family-1);
+.main__posters-header {
+  font-size: var(--font-size-1);
   position: absolute;
-  bottom: -270px;
-  left: 15px;
-  display: inline;
+  top: 3rem;
+  left: 1rem;
+  color: rgb(245, 245, 245);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 3rem 1rem 0.5rem;
+  z-index: 10;
 }
 
-.Card__text-price-b {
-  line-height: 1.8rem;
-  font: 1.2rem var(--font-family-1);
-  position: absolute;
-  bottom: -270px;
-  left: 25px;
+
+  div.disabled {
+    overflow-x: hidden;
+    overflow-y: scroll; 
 }
 
-/* hover Cart and options ---------------------------- */
-.Cart__container-b {
-  position: absolute;
-  bottom: -55px;
-  width: 100%;
-  height: 55px;
-  overflow: hidden;
-  z-index: 2;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  transition: 0.3s;
-  background-color: #f8f8f8;
-  font-family: var(--font-family-2);
+.gallery {
+  display: grid;
+  grid-gap: 0.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto-fit));
+  /*   grid-auto-rows: 200px; */
 
-  /* centre items */
-  display: flex;
+  grid-auto-rows: 8rem;
+  grid-auto-flow: dense;
+  max-width: 90rem;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+
+.gallery__item {
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
-.Card__b:hover > .Cart__container-b {
-  bottom: 0px;
-  /* height: 50px; */
-}
-
-.Favorites-b {
-  display: inline;
-  border-radius: 4px;
-  background-color: black;
+.gallery__item > img {
   height: 100%;
-  padding: 0px 5px;
-  margin: 0px 3px;
-
-  /* centre item */
-  display: flex;
-  align-items: center;
+  object-fit: cover;
+  width: 100%;
 }
 
-/* these have generic styling - may ned to make them specific to teh compenent */
-.Cart {
-  display: inline;
-  border-radius: 4px;
-  background-color: black;
-  padding: 0px 5px;
-  margin: 0px 3px;
-  height: 100%;
-
-  /* centre items */
-  display: flex;
-  align-items: center;
-  /* remainig width  ? */
-  width: 70%;
-}
-.Option {
-  display: inline;
-  border-radius: 4px;
-  background-color: black;
-  padding: 0px 5px;
-  margin: 0px 3px;
-  height: 100%;
-  /* centre item */
-  display: flex;
-  align-items: center;
-  /* remainig width ? */
-  width: 70%;
-}
-.QuickView {
-  display: inline;
-  border-radius: 4px;
-  background-color: black;
-
-  height: 100%;
-  padding: 0px 5px;
-  margin: 0px 3px;
-
-  /* centre item */
-  display: flex;
-  align-items: center;
+.gallery__image-horizontal {
+  grid-column: span 2;
 }
 
-/* ProductCards End-------------------------------------------*/
+.gallery__image-vertical {
+  grid-row: span 1;
+  grid-row: span 2;
+}
 
-/* grid fot cards in App.css */
+.gallery__image-large {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.image-hover {
+  border: 0;
+}
+
+.image__container{
+  position: relative;
+  width: 100%;
+  /* line-height: 2px; */
+}
+
+.location__id {
+  /* font-size: var(--font-size-1); */
+  font-size: 1.5rem;
+  position: absolute;
+  margin: 0 6rem;
+  color: greenyellow;
+}
+
+.location__data{
+  font-size: 1rem;
+  position: absolute;
+  margin: 6rem;
+  color: greenyellow;
+}

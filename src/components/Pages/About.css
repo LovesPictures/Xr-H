@@ -1,6 +1,6 @@
 .main__body-about {
   background: var(--background-4);
-  min-height: 100%;
+  min-height: 100vh;
   position: absolute;
   width: 100vw;
 }
