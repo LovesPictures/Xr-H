@@ -31,7 +31,7 @@ const Navbar = () => {
             <MapIcon alt="Map data" />
           </Link>
 
-          <Link to="/posterCard">
+          <Link to="/Posters">
             <BubbleChartIcon alt="Digital Posters" />
           </Link>
 

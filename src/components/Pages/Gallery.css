@@ -1,0 +1,22 @@
+.main__body-Gallery { 
+background-color: var(--background-4);
+  position: absolute;
+  font-family: "Share Tech Mono", monospace;
+  color: pink;
+}
+
+.main__gallery-header {
+  font-size: var(--font-size-1);
+  position: fixed;
+  top: 3rem;
+  left: 1rem;
+  color: rgb(245, 245, 245);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem 5rem 1rem 0.5rem;
+}
+
+.body__text {
+}
+
+
+
