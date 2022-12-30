@@ -11,6 +11,7 @@
 
 :root {
   --background-1: #ffff;
+  /* --background-2: #f509ae6b; */
   --background-2: #f509ae;
   --background-3: #e8e517cc;
   --background-4: #424d5c;
@@ -22,7 +23,7 @@
   --accent-3: #00ff00;
   --accent-4: #545455;
   --accent-5: #ffff;
-  --accent-6: #000;
+  --accent-6: rgba(0, 0, 0, 0.4);
 
   /* font */
   --font-family-1: "Share Tech Mono", monospace;

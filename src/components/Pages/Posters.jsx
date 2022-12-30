@@ -28,6 +28,7 @@ export const Posters = () => {
               alt="xx"
             ></img>
           </div>
+
           <div className="gallery__item gallery__image-horizontal">
             <img
               src="https://source.unsplash.com/user/timmarshall/300x300"
@@ -331,7 +332,7 @@ export const Posters = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <h3> BN23 ▶▶ </h3>
+              <h4> BN23 ▶ </h4>
             </a>
           </div>
           {/* ---------------------------------- */}
@@ -346,7 +347,7 @@ export const Posters = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <h3> BN23 ▶▶ </h3>
+              <figcaption> BN23 ▶ </figcaption>
             </a>
           </div>
           {/* ---------------------------------- */}

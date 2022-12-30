@@ -10,6 +10,8 @@ import "./MapData.css";
 // directions
 // import MapboxDirections = require("@mapbox/mapbox-gl-directions");
 // import MapboxDirections from "@mapbox/mapbox-gl-directions";
+// **map example https://codesandbox.io/s/mapbox-react-popups-forked-sgtfod?file=/src/App.js
+// Map with pop up https://codesandbox.io/s/relaxed-scott-efxccz
 
 const MAPBOX_ACCESS_TOKEN =
   "pk.eyJ1IjoianVkaXRocmlja2V0dHMiLCJhIjoiY2w1djA4Y2FuMDR6OTNibnAzbm1oeWN4dCJ9.bwVGnCWwW0QgGJp1KAoN2Q";

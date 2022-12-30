@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+/* .Background__home{
+  /* position: absolute; */
+/* background-color: var(--background-2); */
+/* background-image: url('../img/city_plan.gif'); */
+/* height: 100vh;   
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      z-index:-110;
+} */
+
 .Card__logo {
   display: relative;
   text-align: center;
@@ -14,6 +26,7 @@
   display: relative;
   margin-top: 4rem;
   height: 100px;
+  filter: drop-shadow(0.1rem 0.2rem 0.3rem var(--accent-6));
 }
 
 .Card__text-projectName {
