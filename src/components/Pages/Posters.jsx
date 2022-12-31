@@ -10,74 +10,18 @@ export const Posters = () => {
 
       <div className="container">
         <div className="gallery">
-          <div className="gallery__item gallery__image-horizontal">
-            <img
-              src="https://source.unsplash.com/random/500x500"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="gallery__item image-hover">
-            <img
-              src="https://source.unsplash.com/collection/190727/300x300"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="gallery__item">
-            <img
-              src="https://source.unsplash.com/user/erondu/600x600"
-              alt="xx"
-            ></img>
-          </div>
-
-          <div className="gallery__item gallery__image-horizontal">
-            <img
-              src="https://source.unsplash.com/user/timmarshall/300x300"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="gallery__item gallery__image-vertical">
-            <img
-              src="https://source.unsplash.com/collection/190727/200x200"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="gallery__item gallery__image-large">
-            <img
-              src="https://source.unsplash.com/user/randomlies/300x300"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="	gallery__item	gallery__image-horizontal">
-            <img
-              src="	https://source.unsplash.com/collection/190727/300x300"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="	gallery__item	gallery__image-large">
-            <img
-              src="	https://source.unsplash.com/collection/190727/600x600	"
-              alt="xx"
-            ></img>
-          </div>
-          <div className="	gallery__item">
-            <img
-              src="	https://source.unsplash.com/collection/190727/300x300	"
-              alt="	Poster 	1	"
-            ></img>
-            <div className="	poster__ID	">{/* <h3> 1 </h3> */}</div>
-          </div>
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/collection/190727/300x300	"
               alt="	Location 	1	"
             ></img>
             <a
-              className="	location__id	"
+              className="	location__id "
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
             >
-              <h3> BN23 ▶▶ </h3>
+              <div className="ar__link">BN23 ▶▶ </div>
             </a>
           </div>
           {/* ---------------------------------- */}
@@ -111,7 +55,7 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/user/beataratuszniak/300x300	"
               alt="	Location 	4	"
@@ -126,13 +70,13 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-vertical	">
             <img
               src="	https://source.unsplash.com/user/erondu/600x600	"
               alt="	Location 	5	"
             ></img>
             <a
-              className="	location__id	"
+              className="	gallery__image-large-link	"
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
@@ -141,13 +85,13 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-large	">
             <img
               src="	https://source.unsplash.com/user/erondu/600x600	"
               alt="	Location 	6	"
             ></img>
             <a
-              className="	location__id	"
+              className="	gallery__image-large-link	"
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
@@ -156,7 +100,7 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/user/joannecaselynsuarez/300x300	"
               alt="	Location 	7	"
@@ -171,13 +115,13 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-large	">
             <img
               src="	https://source.unsplash.com/user/joannecaselynsuarez/300x300	"
               alt="	Location 	8	"
             ></img>
             <a
-              className="	location__id	"
+              className="	gallery__image-large-link	"
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
@@ -186,7 +130,7 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/user/liamsimpson/600x600	"
               alt="	Location 	9	"
@@ -231,7 +175,7 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/user/randomlies/600x600	"
               alt="	Location 	12	"
@@ -246,13 +190,13 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-vertical	">
             <img
               src="	https://source.unsplash.com/user/rawpixel/300x300	"
               alt="	Location 	13	"
             ></img>
             <a
-              className="	location__id	"
+              className="gallery__image-large-link"
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
@@ -261,13 +205,13 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-large	">
             <img
               src="	https://source.unsplash.com/user/stephanvancephoto/300x300	"
               alt="	Location 	14	"
             ></img>
             <a
-              className="	location__id	"
+              className="	gallery__image-large-link	"
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
@@ -276,7 +220,7 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/user/stephanvancephoto/300x300	"
               alt="	Location 	15	"
@@ -291,13 +235,13 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-large	">
             <img
               src="	https://source.unsplash.com/user/timmarshall/300x300	"
               alt="	Location 	16	"
             ></img>
             <a
-              className="	location__id	"
+              className="	gallery__image-large-link	"
               href="	https://stemkoski.github.io/AR-Examples/shader.html	"
               target="_blank"
               rel="noreferrer"
@@ -306,7 +250,7 @@ export const Posters = () => {
             </a>
           </div>
           {/* ---------------------------------- */}
-          <div className="	gallery__item		">
+          <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/user/timmarshall/300x300	"
               alt="	Location 	17	"
@@ -332,7 +276,7 @@ export const Posters = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <h4> BN23 ▶ </h4>
+              <h3> BN23 ▶▶ </h3>
             </a>
           </div>
           {/* ---------------------------------- */}
@@ -347,10 +291,9 @@ export const Posters = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <figcaption> BN23 ▶ </figcaption>
+              <h3> BN23 ▶▶ </h3>
             </a>
           </div>
-          {/* ---------------------------------- */}
           {/* ---------------------------------- */}
         </div>
       </div>

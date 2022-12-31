@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;  
+  
 }
  
 
@@ -19,14 +20,12 @@
   --background-6: url(./components/img/grid.png);
 
   --accent-1: #8d8b0dcc;
-  --accent-2: #68656899;
+  --accent-2: #e8e517cc;
   --accent-3: #00ff00;
   --accent-4: #545455;
   --accent-5: #ffff;
-  --accent-6: rgba(0, 0, 0, 0.4);
-
-  /* font */
-  --font-family-1: "Share Tech Mono", monospace;
+  --accent-6: rgba(255, 255, 255, 0.74);
+  --accent-7: #f509ae;
 
   /* scale these form mobile to desktop */
   --font-size-1: 1.8rem; /*55px*/
@@ -43,7 +42,7 @@
   --font-color-2: #ffff;
   --font-color-3: #000;
   --font-color-4: #d7d7db;
-  --font-color-5: #ffa500;
+  --font-color-5: #00ff00;
   --font-semiTransparent: rgba(255, 255, 255, 0.502);
 
   /* styling */
