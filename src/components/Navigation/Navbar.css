@@ -29,6 +29,17 @@
   transition: all 0.8s;
 }
 
+.Nav__icon{
+  /* fill: var(--accent-3) ; */
+  /* filter: invert(49%) sepia(50%) saturate(3462%) hue-rotate(162deg) brightness(95%) contrast(101%);
+   */
+ color: invert(100%);
+ filter: brightness(0.4);
+   width:20px;
+  padding: 0px;
+  z-index: 100;
+}
+
 .Primary__navbar-link a:hover {
   background-color: var(--background-3);
   color: var(--background-1);
