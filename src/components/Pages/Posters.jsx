@@ -1,5 +1,6 @@
 import React from "react";
 import "./Posters.css";
+// import { Ar } froym "./Ar";
 
 export const Posters = () => {
   return (
@@ -17,7 +18,7 @@ export const Posters = () => {
             ></img>
             <a
               className="	location__id "
-              href="	https://stemkoski.github.io/AR-Examples/shader.html	"
+              href="	https://bob5r5.csb.app	"
               target="_blank"
               rel="noreferrer"
             >
