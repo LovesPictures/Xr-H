@@ -1,7 +1,7 @@
 import React from "react";
-import "./Posters.css";
+import "./Locations.css";
 
-export const Posters = () => {
+export const Locations = () => {
   return (
     <main className="main__body-posters">
       <header className="main__posters-header">

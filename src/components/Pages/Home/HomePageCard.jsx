@@ -1,17 +1,11 @@
 import React from "react";
-import Logo from "../img/JohnHawkynsCrest_02.png";
-// import image from "../img/city_plan.gif";
-
-import QR from "../img/QR.png";
+import Logo from "../../img/JohnHawkynsCrest_02.png";
+import QR from "../../img/QR.png";
 
 export const HomePageCard = (props) => {
   return (
     <div>
       <div className="Card__text-container">
-        {/* <div className="Background__home">
-          <img src={image} alt="city" />
-        </div> */}
-
         <div className="Card__logo">
           <img src={Logo} alt="John Hawkins (Hawkyns) Crest" />
         </div>

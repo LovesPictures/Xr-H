@@ -27,7 +27,7 @@ const Navbar = () => {
             <img className="Nav__icon" src={Icons.iconMap} alt="Map icon" />
           </Link>
 
-          <Link to="/Posters">
+          <Link to="/locations">
             <img className="Nav__icon" src={Icons.iconEye} alt="Eye icon" />
           </Link>
 

@@ -3,8 +3,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker, GeolocateControl } from "react-map-gl";
 import { NavigationControl } from "react-map-gl";
 
-import GoringHall_01 from "../img/GoringHall_01.png";
-// import markerOrange from "../img/markerOrange.png";
+import GoringHall_01 from "../../img/GoringHall_01.png";
 import "./MapData.css";
 
 // directions

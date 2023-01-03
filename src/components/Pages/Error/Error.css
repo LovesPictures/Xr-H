@@ -1,0 +1,31 @@
+.main__body-error {
+  background: var(--background-4);
+  min-height: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+.main__error-header {
+  font-size: var(--font-size-1);
+  color: var(--font-semiTransparent);
+  position: absolute;
+  margin: 10rem 5rem;
+}
+
+.main__error-link {
+  font-size: var(--font-size-1);
+  color: var(--font-color-5);
+  position: absolute;
+  margin: 26rem 5rem;
+  text-decoration-style: dotted;  
+}
+
+.Card__logo-error > img {
+  display: absolute;
+  margin-top: 0rem;
+  height: 8rem;
+  filter: drop-shadow(0.05rem 0.1rem 0.2rem var(--accent-6));
+  filter: grayscale(100%);
+}
+
+
