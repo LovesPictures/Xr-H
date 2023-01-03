@@ -55,16 +55,16 @@
   padding: 0px 15%;
 }
   .main__about-header {  
-    margin: 18rem 3rem;
+    margin: 7rem 3rem;
     font-size: 3rem;
   }
 
   .accordion__title {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .accordion {
-    margin: 23rem 3rem;
+    margin: 12rem 3rem;
     font-size: 1.4rem;
   }
 }

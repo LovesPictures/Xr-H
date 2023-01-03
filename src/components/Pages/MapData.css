@@ -7,11 +7,8 @@
   color: var(--font-semiTransparent);
   position: absolute;
   margin: 34rem auto;
-
-   z-index: 10;   
+  z-index: 10;   
 }
-
-
 
 /* DEFAULT text container   */
 .Card__text-container-c {

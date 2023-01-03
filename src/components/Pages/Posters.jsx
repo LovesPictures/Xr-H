@@ -17,11 +17,11 @@ export const Posters = () => {
             ></img>
             <a
               className="	location__id "
-              href="	https://stemkoski.github.io/AR-Examples/shader.html	"
+              href="	https://bob5r5.csb.app"
               target="_blank"
               rel="noreferrer"
             >
-              <div className="ar__link">BN23 ▶▶ </div>
+              <h3>BN23 ▶▶ </h3>
             </a>
           </div>
           {/* ---------------------------------- */}

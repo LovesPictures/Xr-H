@@ -1,6 +1,6 @@
 .main__body-contact {
   background: var(--background-4);
-  height: 100vh;
+  min-height: 100vh;
   position: absolute;
   width: 100vw;
 }
@@ -109,18 +109,20 @@ input:focus:required:placeholder-shown {
 /* MEDIA  -------------------------------------------- */
 
 @media screen and (min-width: 700px) {
+  /* @media (width <= 700px) or (orientation: landscape) { */
   .main__body-contact {
     padding: 0px 10%;
   }
   .main__contact-header {
-    margin: 10rem 10%;
-    font-size: 3rem;
+     margin: 5.5rem 3rem;
+    font-size: 2rem;
+    
   }
 
   #Contact__form {
-    max-width: 80%;
-    padding: 50px 0px;
-    margin: 10rem auto;
+    max-width: 60%;
+    padding: 40px 0px;
+    margin: 6rem auto;
     box-sizing: border-box;
     position: relative;
   }
@@ -134,10 +136,10 @@ input:focus:required:placeholder-shown {
     box-shadow: var(--box-shadow-1);
   }
   #Contact__form {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   #Contact__form-submit-Btn {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   ::placeholder {
     font-size: 1.4rem;
@@ -146,10 +148,37 @@ input:focus:required:placeholder-shown {
 
 @media screen and (min-width: 1080px) {
   .main__contact-header {
-    margin: 9.5rem 20%;
+    padding: 0px 10%;
+  }
+
+  .main__contact-header {
+     margin: 5.5rem 3rem;
+    font-size: 2rem;    
   }
 
   #Contact__form {
-    max-width: 50%;
+    max-width: 60%;
+    padding: 40px 0px;
+    margin: 6rem auto;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  #firstName,
+  #lastName,
+  #telephone,
+  #email,
+  #comments {
+    padding: 3%;
+    box-shadow: var(--box-shadow-1);
+  }
+  #Contact__form {
+    font-size: 2.5rem;
+  }
+  #Contact__form-submit-Btn {
+    font-size: 1.2rem;
+  }
+  ::placeholder {
+    font-size: 1.4rem;
   }
 }
