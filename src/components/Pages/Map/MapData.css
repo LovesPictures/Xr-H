@@ -53,3 +53,8 @@ a.mapboxgl-ctrl-logo {
   height: 0px;
 }
 
+.MarkerText {
+color: #fff;
+display: none;
+
+}
