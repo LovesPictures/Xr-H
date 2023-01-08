@@ -12,12 +12,30 @@
   padding: 0.8rem 3rem 0.8rem 0.5rem;
 }
 
+.data__headline {
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-3);
+  position: relative;
+  color: var(--font-color-2);
+  background: none;
+}
+
+.find__your-location {
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-3);
+  position: absolute;
+  color: var(--font-color-2);
+  background: none;
+  padding: 1rem 0rem;
+  right: 3rem;
+  z-index: 100;
+}
 /* DEFAULT text container   */
-.Card__text-container-c {
+/* .Card__text-container-c {
   color: white;
   text-align: center;
   position: relative;
-}
+} */
 
 /* Mapbox branding */
 .mapboxgl-ctrl-logo {
@@ -58,4 +76,35 @@ a.mapboxgl-ctrl-logo {
 .MarkerText {
   color: #fff;
   display: none;
+}
+
+/* Pop-up-------------------------------------------- */
+
+.mapboxgl-popup-content {
+  font-size: var(--font-size-4);
+  position: relative;
+  color: var(--font-color-2);
+  background: var(--background-5);
+  cursor: crosshair;
+}
+
+/* .mapboxgl-popup {
+   color: var(--background-5);
+} */
+
+.mapboxgl-popup-close-button {
+  background-color: pink;
+  border: 0;
+  border-radius: 0 30px 0 0;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+
+.mapboxgl-popup-close-button:hover {
+  background-color: yellowgreen;
 }

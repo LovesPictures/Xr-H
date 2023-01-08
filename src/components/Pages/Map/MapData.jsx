@@ -1,4 +1,3 @@
-//original  page - working on .map()
 import * as React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, {
@@ -16,16 +15,19 @@ const MAPBOX_ACCESS_TOKEN =
 
 export const MapData = () => {
   const [showPopup, setShowPopup] = React.useState(false);
-  console.log("showPopup " + showPopup);
+  // console.log("showPopup " + showPopup);
 
   const data = locationData;
 
   return (
-    // <main className="cardQ">
     <main className="main__body-mapData">
       <header className="main__mapData-header">
         <h2>Greater Brighton</h2>
       </header>
+      <h3 className="data__headline">
+        Number of owners:? people enslaved:? compensation:?,
+      </h3>
+      <p className="find__your-location">find your location ➤</p>
       <Map
         initialViewState={{
           longitude: -0.16038,
@@ -45,10 +47,10 @@ export const MapData = () => {
             anchor="bottom"
             onClose={() => setShowPopup(false)}
           >
-            {showPopup.FirstName_LastName_UK}
-
-            {showPopup.people_enslaved}
-            {showPopup.compensation}
+            {showPopup.id}
+            {"Property owner: " + showPopup.FirstName_LastName_UK}
+            {" Number enslaved: " + showPopup.people_enslaved + " people"}
+            {" Compensation: £ " + showPopup.compensation}
           </Popup>
         )}
         <GeolocateControl
@@ -63,6 +65,8 @@ export const MapData = () => {
                 e.originalEvent.stopPropagation();
                 setShowPopup(pin);
               }}
+              // tipSize={35}
+              // anchor="top"
               key={pin.id}
               latitude={pin.latitude}
               longitude={pin.longitude}
