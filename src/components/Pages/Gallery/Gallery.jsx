@@ -164,10 +164,11 @@ export const Gallery = () => {
     },
     mode: "dark",
   };
+
   return (
-    <div className="Gallery">
+    <div className="Stories__gallery">
       <div id="Gallery">
-        <div className="main__body-Gallery"></div>
+        <div className="main__body-gallery"></div>
         <header className="main__gallery-header">
           <h2>P:stories </h2>
           <p className="body__text">from the city </p>

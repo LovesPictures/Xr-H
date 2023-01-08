@@ -7,14 +7,13 @@ import "./MapData.css";
 export const MapData = () => {
   return (
     <div>
-      <div className="cardQ">
+      <main className="main__body-posters">
         <header className="main__mapData-header">locations</header>
 
         {locationData.map((locationData) => {
-          /* prop = value */
-          return <div project={locationData} />;
+          return <div locationData={locationData} />;
         })}
-      </div>
+      </main>
     </div>
   );
 };

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Locations.css";
+import "../../img/LocImgs/1.jpg";
+import "../../img/LocImgs/2.jpg";
 
 export const Locations = () => {
   return (
@@ -9,7 +11,7 @@ export const Locations = () => {
       </header>
 
       <div className="container">
-        <div className="gallery">
+        <div className="location__gallery">
           <div className="	gallery__item	gallery__image-horizontal	">
             <img
               src="	https://source.unsplash.com/collection/190727/300x300	"

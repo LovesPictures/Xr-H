@@ -61,7 +61,7 @@
 body {
  font-family: "Share Tech Mono", monospace;
  /* background: var(--background-4); */
- height: 100vh;
+ /* height: 100vh; */
 }
 
 html {

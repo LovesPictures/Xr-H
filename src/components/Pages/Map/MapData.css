@@ -1,13 +1,15 @@
-.cardQ {
+.main__body-mapData {
+  background: var(--background-4);
   height: 100vh;
 }
 
-.main__mapData-header{
-  font-size: var(--font-size-1);
-  color: var(--font-semiTransparent);
-  position: absolute;
-  margin: 34rem auto;
-  z-index: 10;   
+.main__mapData-header {
+  font-size: var(--font-size-2);
+  position: relative;
+  color: var(--font-color-2);
+  background: var(--background-6);
+  background-color: var(--background-3);
+  padding: 0.8rem 3rem 0.8rem 0.5rem;
 }
 
 /* DEFAULT text container   */
@@ -46,15 +48,14 @@ a.mapboxgl-ctrl-logo {
 .mapboxgl-ctrl-attrib.mapboxgl-compact {
   background-color: 0;
   border-radius: 0px;
-  margin:0px;
-  min-height:0px;
+  margin: 0px;
+  min-height: 0px;
   padding: 0px;
   width: 0px;
   height: 0px;
 }
 
 .MarkerText {
-color: #fff;
-display: none;
-
+  color: #fff;
+  display: none;
 }
